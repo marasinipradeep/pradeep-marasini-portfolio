@@ -2,7 +2,7 @@
 Responsive Portfolio
 
 
-## Basic Overview - [Live Demo]()
+## Basic Overview - [Live Demo](https://marasinipradeep.github.io/pradeep-marasini-portfolio/)
 
 This is fully functional  portfolio which is build considering responsiveness to different devices and window or screen sizes.
 
@@ -10,22 +10,24 @@ This is fully functional  portfolio which is build considering responsiveness to
 
 - Semantic and logical order of HTML elements.
 - All the images with "alt" attributes.
--Responsive to different screen sizes
+- Responsive to different screen sizes
  large : > 980px wide
  medium : 769px - 980px wide
  small : 641px - 768px wide
  x-small : <= 640px wide
- -Contains personal information
+- Contains personal information
 
 
 
 ## Tools and Technology used
 
 Tools
+-----------
 -vs code
 -Google chrome
 
 Technology
+------------
 -HTML
 -CSS
 -Bootstrap
