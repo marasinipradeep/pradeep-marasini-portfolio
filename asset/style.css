@@ -5,8 +5,13 @@
 }
 
 body{
-    background-color: #d9dcd6;
+   
 }
+
+p{
+    font-size: 20px;
+}
+
 
 
 .navbar-nav{
@@ -19,10 +24,6 @@ h1{
    color:#4d00b2;
     font-size: 50px;
    font-family: 'Sacramento', cursive;
-}
-
-ul{
-   
 }
 
 .navbar-default .navbar-nav>li>a  {
@@ -41,6 +42,38 @@ h1, ul{
    
 }
 
+/* ----Defining floats for different images to shift left and right---- */
+
+.float-right {float: right;}
+.resetimages{max-height: 40vh;max-width: 100%; float: left;}
+
+#about-me{
+    
+        margin: 20px;
+        padding: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       /* background-color: #0072bb;*/
+       background-color: #ffffff;
+        color: blue;
+
+}
+
+.contentheadingsize{margin-bottom: 20px; font-size: 50px;}
+.paragraph{position: relative; left: 15px; }
+.content {}
+
+
+
+
+/* ----Start of footer---- */
+#bottomfooter{
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#bottomheading{font-size: 20px;}
 
 /*For screen size larger than 981*/
 @media only screen and (max-width:981px){
@@ -61,6 +94,7 @@ h1, ul{
       
     }
 }
+
 
 /*When the browser's width is between 768px and 641px*/
 @media screen and (max-width: 768px) and (min-width: 641px) {
@@ -85,6 +119,7 @@ h1, ul{
         float: none;
         padding: 0px;
     }
+    .resetimages{float: none;}
    
 }
 
@@ -99,5 +134,7 @@ h1, ul{
         padding: 0px;
         font-size: 15px;
     }
+    .resetimages{float: none;}
+
 
 }
