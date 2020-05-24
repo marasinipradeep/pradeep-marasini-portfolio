@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #d9dcd6;
+}
+
+
+.navbar-nav{
+    padding: 20px;
+    font-size: 24px;
+    float: right;
+}
+
+h1{
+   color:#4d00b2;
+    font-size: 50px;
+   font-family: 'Sacramento', cursive;
+}
+
+ul{
+   
+}
+
+.navbar-default .navbar-nav>li>a  {
+color: blue;
+}
+
+h1, ul{
+
+    text-align: center;
+    list-style: inside;
+}
+
+.navbar-nav li{
+    display: inline-flex;
+    justify-content: center;
+   
+}
+
+
+/*For screen size larger than 981*/
+@media only screen and (max-width:981px){
+    .navbar-nav{
+
+    }
+
+}
+
+/*When the browser's width is between 980 and 769*/
+@media screen and (max-width: 980px) and (min-width: 769px) {
+    .navbar-nav{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 40px;
+      
+    }
+}
+
+/*When the browser's width is between 768px and 641px*/
+@media screen and (max-width: 768px) and (min-width: 641px) {
+    .navbar-nav{
+        float: none;
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+}
+
+/* If screen size is 600px wide, or equal 321px, set the follwing:*/
+@media only screen and (max-width:640px) and (min-width: 321px){
+    h1{
+        margin: 0px;
+        font-size: 32px;
+    }
+
+    .navbar-nav{
+        float: none;
+        padding: 0px;
+    }
+   
+}
+
+
+    /* If screen size is 320px wide, or less, set the follwing:*/
+@media only screen and (max-width:320px){
+    h1{
+        margin: 0px;
+        font-size: 30px;
+    }
+    .navbar-nav{
+        padding: 0px;
+        font-size: 15px;
+    }
+
+}
