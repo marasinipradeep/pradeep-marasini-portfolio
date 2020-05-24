@@ -4,15 +4,10 @@
     padding: 0px;
 }
 
-body{
-   
-}
+body{background:lightblue;}
+.container-fluid {background: lightblue;}
 
-p{
-    font-size: 20px;
-}
-
-
+p{font-size: 20px;}
 
 .navbar-nav{
     padding: 20px;
@@ -26,21 +21,11 @@ h1{
    font-family: 'Sacramento', cursive;
 }
 
-.navbar-default .navbar-nav>li>a  {
-color: blue;
-}
+.navbar-default .navbar-nav>li>a  {color: blue;}
 
-h1, ul{
+h1, ul{text-align: center;list-style: inside;}
 
-    text-align: center;
-    list-style: inside;
-}
-
-.navbar-nav li{
-    display: inline-flex;
-    justify-content: center;
-   
-}
+.navbar-nav li{display: inline-flex;justify-content: center;}
 
 /* ----Defining floats for different images to shift left and right---- */
 
@@ -48,15 +33,15 @@ h1, ul{
 .resetimages{max-height: 40vh;max-width: 100%; float: left;}
 
 #about-me{
-    
-        margin: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
         padding: 50px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
        /* background-color: #0072bb;*/
        background-color: #ffffff;
         color: blue;
-
 }
+
 
 .contentheadingsize{margin-bottom: 20px; font-size: 50px;}
 .paragraph{position: relative; left: 15px; }
@@ -64,6 +49,36 @@ h1, ul{
 
 
 
+/*contact form */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
 
 /* ----Start of footer---- */
 #bottomfooter{
@@ -78,64 +93,37 @@ h1, ul{
 
 /*For screen size larger than 981*/
 @media only screen and (max-width:981px){
-    .navbar-nav{
-
-    }
-
+    .navbar-nav{}
 }
 
 /*When the browser's width is between 980 and 769*/
 @media screen and (max-width: 980px) and (min-width: 769px) {
-    .navbar-nav{
-        font-size: 20px;
-    }
 
-    h1{
-        font-size: 40px;
-      
-    }
+    .navbar-nav{font-size: 20px;}
+    h1{ font-size: 40px;}
 }
 
 
 /*When the browser's width is between 768px and 641px*/
 @media screen and (max-width: 768px) and (min-width: 641px) {
-    .navbar-nav{
-        float: none;
-        font-size: 20px;
-    }
 
-    h1{
-        font-size: 40px;
-    }
+    .navbar-nav{float: none;font-size: 20px;}
+    h1{ font-size: 40px;}
 }
 
 /* If screen size is 600px wide, or equal 321px, set the follwing:*/
 @media only screen and (max-width:640px) and (min-width: 321px){
-    h1{
-        margin: 0px;
-        font-size: 32px;
-    }
 
-    .navbar-nav{
-        float: none;
-        padding: 0px;
-    }
+    h1{margin: 0px; font-size: 32px;}
+    .navbar-nav{float: none;padding: 0px;}
     .resetimages{float: none;}
-   
 }
 
 
     /* If screen size is 320px wide, or less, set the follwing:*/
 @media only screen and (max-width:320px){
-    h1{
-        margin: 0px;
-        font-size: 30px;
-    }
-    .navbar-nav{
-        padding: 0px;
-        font-size: 15px;
-    }
+
+    h1{ margin: 0px; font-size: 30px;}
+    .navbar-nav{padding: 0px;font-size: 15px;}
     .resetimages{float: none;}
-
-
 }
