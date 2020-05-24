@@ -71,9 +71,10 @@ h1, ul{
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: blue;
 }
 
-#bottomheading{font-size: 20px;}
+#bottomheading{font-size: 20px; }
 
 /*For screen size larger than 981*/
 @media only screen and (max-width:981px){
