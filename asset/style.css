@@ -39,19 +39,16 @@ h1, ul{text-align: center;list-style: inside;}
 @media screen and (max-width: 980px) and (min-width: 769px) {
     h1{ font-size: 40px;}
     .navbar-nav{font-size: 20px;}
-    
 }
 
 /*When the browser's width is between 768px and 641px*/
 @media screen and (max-width: 768px) and (min-width: 641px) {
     h1{ font-size: 40px;}
     .navbar-nav{float: none;font-size: 20px;}
-    
 }
 
 /* If screen size is 600px wide, or equal 321px, set the follwing:*/
 @media only screen and (max-width:640px) and (min-width: 321px){
-
     h1{margin: 0px; font-size: 32px;}
     .navbar-nav{float: none;padding: 0px;font-size: 18px;}
     .resetimages{float: none;}
@@ -59,7 +56,6 @@ h1, ul{text-align: center;list-style: inside;}
 
     /* If screen size is 320px wide, or less, set the follwing:*/
 @media only screen and (max-width:320px){
-
     h1{ margin: 0px; font-size: 30px;}
     .navbar-nav{padding: 0px;font-size: 15px;}
     .resetimages{float: none;}
