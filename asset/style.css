@@ -18,7 +18,7 @@ p{font-size: 20px;}
 h1{
    color:#4d00b2;
     font-size: 50px;
-   font-family: 'Sacramento', cursive;
+   font-family: 'Sacramento', cursive, Arial, sans-serif;;
 }
 
 .navbar-default .navbar-nav>li>a  {color: blue;}
@@ -30,7 +30,8 @@ h1, ul{text-align: center;list-style: inside;}
 /* ----Defining floats for different images to shift left and right---- */
 
 .float-right {float: right;}
-.resetimages{max-height: 40vh;max-width: 100%; float: left;}
+.resetimages{max-height: 80vh;max-width: 100%; float: left;}
+.reset-portfolio-images{height: 200px;max-width: 250px;}
 
 #about-me{
         margin-left: 200px;
@@ -45,35 +46,7 @@ h1, ul{text-align: center;list-style: inside;}
 
 .contentheadingsize{margin-bottom: 20px; font-size: 50px;}
 .paragraph{position: relative; left: 15px; }
-.content {}
 
-
-
-/*contact form */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color:lightblue;
-    color:blue;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: mediumblue;
-  }
-  
   .container {
     border-radius: 5px;
     background-color: #ffffff;
@@ -92,6 +65,8 @@ input[type=text], select, textarea {
 }
 
 #bottomheading{font-size: 20px; }
+
+
 
 /*For screen size larger than 981*/
 @media only screen and (max-width:981px){
@@ -117,7 +92,7 @@ input[type=text], select, textarea {
 @media only screen and (max-width:640px) and (min-width: 321px){
 
     h1{margin: 0px; font-size: 32px;}
-    .navbar-nav{float: none;padding: 0px;}
+    .navbar-nav{float: none;padding: 0px;font-size: 18px;}
     .resetimages{float: none;}
 }
 
