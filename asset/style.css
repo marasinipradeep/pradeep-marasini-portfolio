@@ -1,25 +1,36 @@
-*{box-sizing: border-box;margin: 0px;padding: 0px;}
 
+/* ----Intitializing all margin and padding zero---- */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 
 body{background:lightblue;}
 p{font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 h1{color:#4d00b2;font-size: 50px;font-family: 'Sacramento', cursive, Arial, sans-serif;}
 h1, ul{text-align: center;list-style: inside;}
 
-.container-fluid {background: lightblue;}
+/* ----Start of top header with navigation links---- */
+
 .navbar-nav{padding: 20px;font-size: 24px;float: right;}
 .navbar-default .navbar-nav>li>a  {color: blue;}
 .navbar-nav li{display: inline-flex;justify-content: center;}
-.resetimages{max-height: 80vh;max-width: 100%;}
-.reset-portfolio-images{height: 200px;max-width: 250px;}
-.contentheadingsize{margin-bottom: 20px; font-size: 50px;}
 
+/* ----Basic design container for main contents after navbar and before footer---- */
   .container {
     border-radius: 5px;
     background-color: #ffffff;
     padding: 20px;
     color: blue;
   }
+
+  /* Miscellaneous, applying own css properties on bootstrap classes and other elements*/
+  .row{text-align:center ;}
+  .container-fluid {background: lightblue;}
+  .resetimages{max-height: 80vh;max-width: 100%;}
+  .reset-portfolio-images{max-height: 80vh;max-width: 80%;}
+  .contentheadingsize{margin-bottom: 20px; font-size: 50px;}
 
 
 /* ----Start of footer---- */
@@ -60,3 +71,4 @@ h1, ul{text-align: center;list-style: inside;}
     .navbar-nav{padding: 0px;font-size: 15px;}
     .resetimages{float: none;}
 }
+/*End of Page*/
