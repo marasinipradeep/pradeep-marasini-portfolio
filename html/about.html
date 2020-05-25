@@ -16,51 +16,59 @@
 
     <!--Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    
+     <!--CDN link for  font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- External  CSS -->
-    <link rel="stylesheet" href="../asset/style.css">
+    <link rel="stylesheet" href="../asset/css/style.css">
 
 </head>
 
 <body>
 
+    
     <!--Start of top navbar-->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="./about.html"> <h1>Pradeep Marasini</h1></a>
-            </div>
-            <ul class="nav navbar-nav ">
-                <li><a href="./about.html" >About me</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./contact.html">Contact us</a></li>
-            </ul>
-        </div>
+  <header class="navbar navbar-default">
+    <nav class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./about.html">
+          <h1>Pradeep Marasini</h1>
+        </a>
+      </div>
+      <ul class="nav navbar-nav ">
+        <li><a href="./about.html">About me</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact us</a></li>
+      </ul>
     </nav>
-    <!--End of top navbar-->
+  </header>
+  <!--End of top navbar-->
+
+    
 
      <!--Start of  main content which is divided into 2 row, content heading and content descriptions-->
       
-        <div class="container">
+        <main class="container">
             <div class="row">
-                <h2 class="contentheadingsize">About me:</h2>
+                <label class="contentheadingsize">About me:</label>
                 <hr/>
             </div>
 
            <!--Content description divided into two column one for image, another for paragraph-->
-            <div class="row">
-                <div class="col-md-4">
-                    <img class="resetimages" src="../asset/images/profilePic.jpg"
-                    alt="This is me, i love nature" />
-                </div>
-                <div class="col-md-8">
-                    <p role="definition"> Hello everyone "Namaste". My name is Pradeep Marasini.I was born and rasied in Nepal also known for country of Himalayas where "Mount Everest" is located.From my childhood, I was more facinated towards different Engineering technologies speciallly Electonics, Telicommunicaton and Computer System.I was always curious to know about how the things works behind the seen.Therefore, when I grew up I decided to gain valuable insight knowledge by joining the course in Electronics and Communication Engineering. After, the completion of my course I was able to transfer my skills on solving the real life problems. So I joined small firm which was foucused on delivering the emerging technologies to the people in need.
+            <section class="row" tabindex="0">
+
+                    <img class="col-md-4 resetimages" src="../asset/images/profilePic.jpg"
+                    alt="This is me Pradeep Marasini, i love nature" />
+
+                    <p class="col-md-8" role="definition"> Hello everyone "Namaste". My name is Pradeep Marasini.I was born and rasied in Nepal also known for country of Himalayas where mount Everest is located. From my childhood, I was more facinated towards different Engineering technologies speciallly Electonics, Telicommunicaton and Computer System. I was always curious to know about how the things works behind the seen. Therefore, when I grew up I decided to gain valuable insight knowledge by joining the course in Electronics and Communication Engineering. After, the completion of my course I was able to transfer my skills on solving the real life problems. So I joined small firm which was focused on delivering the banking solutions.
                     <br/>
-                    I worked at a medium-sized enterprise in IT (Information Technology) company. My tasks included the development of application programs for business processes as well as working on  projects from the initial development of the project to final testing of the software.<br/>
-                    International experience for graduates is becoming more and more important. Thus, I decided to travel abroad to become acquainted with a new country and culture.I have chosen to come to Australia to learn more about the diversity of people, practise my English and travel around.</p>
-                </div>
-            </div>
-        </div>
+                    I worked at a medium-sized enterprise in IT (Information Technology) company. My tasks included the development of application programs for business processes as well as working on  projects from the initial development of the project to final testing of the software.
+                    <br/>
+                    International experience for graduates is becoming more and more important. Thus, I decided to travel abroad to become acquainted with a new country and culture. I have chosen to come to Australia to learn more about the diversity of people, practice my English and travel around.</p>
+                
+            </section>
+        </main>
     
 
 
@@ -68,7 +76,15 @@
     <footer id="bottomfooter" tabindex="0">
         <h2 id="bottomheading">Made with ❤️️ </h2>
         <p>&copy; 2020 Pradeep Marasini</p>
+        <a href="https://www.facebook.com/pmarasini1" class="fa fa-facebook" aria-hidden="false" title="facebook"></a>
+       
+        <a href="https://www.linkedin.com/in/pradeep-marasini-34b322b4/" class="fa fa-linkedin" aria-hidden="false" title="linkedin"></a>
+        
     </footer>
+
+
+
+   <script src="../wrapper.js"></script>
 
 </body>
 
