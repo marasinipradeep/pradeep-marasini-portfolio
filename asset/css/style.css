@@ -5,14 +5,26 @@
     margin: 0px;
     padding: 0px;
 }
-body{background:lightblue;}
+body{
+    background:	#ADD8E6;
+    position: relative;
+    padding-bottom: 150px;
+    min-height: 100vh;
+   }
+
 p{font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-h1{color:#4d00b2;font-size: 50px;font-family: 'Sacramento', cursive, Arial, sans-serif;}
+h1{
+     background: skyblue;
+     color:#4d00b2;
+     font-size: 50px;font-family: 'Sacramento', cursive, Arial, sans-serif;
+     border-radius: 25px;
+    }
 h1, ul{text-align: center;list-style: inside;}
+form{font-size: 20px;}
 
 /* ----Start of top header with navigation links---- */
 .navbar-nav{padding: 20px;font-size: 24px;float: right;}
-.navbar-default .navbar-nav>li>a  {color: blue;}
+.navbar-default .navbar-nav>li>a  {color: #0000FF;}
 .navbar-nav li{display: inline-flex;justify-content: center;}
 
 /* ----Basic design container for main contents after navbar and before footer---- */
@@ -20,32 +32,35 @@ h1, ul{text-align: center;list-style: inside;}
     border-radius: 5px;
     background-color: #ffffff;
     padding: 20px;
-    color: blue;
+    color: #0000FF;
+    max-width: 80%;
   }
 
   /* Miscellaneous, applying own css properties on bootstrap classes and other elements*/
   .row{text-align:center ;}
-  .container-fluid {background: lightblue;}
+  .container-fluid {background: #D3D3D3;}
   .resetimages{max-height: 80vh;max-width: 100%;}
-  .reset-portfolio-images{max-height: 80vh;max-width: 80%;}
-  .contentheadingsize{margin-bottom: 10px; font-size: 40px;}
+  .contentheadingsize{font-size: 30px;}
+
 
 
 /* ----Start of footer---- */
 #bottomfooter{
-    padding: 30px;
-    clear: both;
+    position: absolute;
+    bottom: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    color: blue;
+    color: #0000FF;
+    background: #D3D3D3;
+    width: 100%;
 }
 #bottomheading{font-size: 20px; }
 
 /*Modifaction of font awesome icons*/
 .fa {
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
-    width: 30px;
+    width: 25px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -69,13 +84,13 @@ h1, ul{text-align: center;list-style: inside;}
 @media only screen and (max-width:640px) and (min-width: 321px){
     h1{margin: 0px; font-size: 32px;}
     .navbar-nav{float: none;padding: 0px;font-size: 18px;}
-    .resetimages{float: none;}
+   
 }
 
     /* If screen size is 320px wide, or less, set the follwing:*/
 @media only screen and (max-width:320px){
     h1{ margin: 0px; font-size: 30px;}
     .navbar-nav{padding: 0px;font-size: 15px;}
-    .resetimages{float: none;}
+   
 }
 /*End of Page*/
