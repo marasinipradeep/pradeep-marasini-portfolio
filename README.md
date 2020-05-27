@@ -8,6 +8,7 @@ This is fully functional  portfolio which is build considering responsiveness to
 
 #### Features
 
+-Accessibility
 - Semantic and logical order of HTML elements.
 - All the images with "alt" attributes.
 - Responsive to different screen sizes
