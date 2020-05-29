@@ -40,6 +40,8 @@ Technology
 
 ## Screenshots of final outputs
 
+# Large Screen Size 
+
 ![About Me Full Screen](asset/images/screenshot/largeAbout.png)
 
 ![Portfolio Full Screen](asset/images/screenshot/largePortfolio.png)
@@ -47,7 +49,7 @@ Technology
 ![Contact Form Full Screen](asset/images/screenshot/largeContactUs.png)
 
 
-
+# Medium Screen Size
 ![About Me Medium Screen](asset/images/screenshot/mediumAboutMe.png)
 
 ![Portfolio Medium Screen](asset/images/screenshot/mediumPortfolio.png)
@@ -55,7 +57,7 @@ Technology
 ![Contact Form Medium Screen](asset/images/screenshot/mediumContactForm.png)
 
 
-
+# Small Screen Size
 ![About Me Small Screen](asset/images/screenshot/smallAboutMe.png)
 
 ![Portfolio Small Screen](asset/images/screenshot/smallPortfolio.png)
