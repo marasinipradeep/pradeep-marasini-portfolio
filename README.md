@@ -11,15 +11,11 @@ This is fully functional  portfolio which is build considering responsiveness to
 -Accessibility
 - Semantic and logical order of HTML elements.
 - All the images with "alt" attributes.
-- Responsive to different screen sizes
- x-lage: >981px wide
- large : 769px - 980px wide
- medium : 641px - 768px wide
- small : 320px - 640px wide
- x-small : <= 320px wide
 - Contains personal information
-
-
+- Responsive to different screen sizes
+ large: >=1200px wide
+ medium : >=992px wide
+ small : >=768px wide
 
 ## Tools and Technology used
 
@@ -43,10 +39,25 @@ Technology
 -You can view live demo clicking on link above.
 
 ## Screenshots of final outputs
-![About Me Full Screen](asset/images/screenshot/aboutextraLargeLandscape.png)
-![Portfolio Full Screen](asset/images/screenshot/portfolioextraLargeLandscape.png)
-![Contact Form Full Screen](asset/images/screenshot/contactextraLargeLandscape.png)
 
-![About Me Small Screen](asset/images/screenshot/smallAbout.png)
+![About Me Full Screen](asset/images/screenshot/largeAbout.png)
+
+![Portfolio Full Screen](asset/images/screenshot/largePortfolio.png)
+
+![Contact Form Full Screen](asset/images/screenshot/largeContactUs.png)
+
+
+
+![About Me Medium Screen](asset/images/screenshot/mediumAboutMe.png)
+
+![Portfolio Medium Screen](asset/images/screenshot/mediumPortfolio.png)
+
+![Contact Form Medium Screen](asset/images/screenshot/mediumContactForm.png)
+
+
+
+![About Me Small Screen](asset/images/screenshot/smallAboutMe.png)
+
 ![Portfolio Small Screen](asset/images/screenshot/smallPortfolio.png)
-![Contact Form Small Screen](asset/images/screenshot/smallContactForm.png)
+
+![Contact Form Small Screen](asset/images/screenshot/smallContactUs.png)

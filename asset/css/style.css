@@ -13,8 +13,7 @@ body{
    }
 
 p{font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-h1{
-     background: skyblue;
+h1{ 
      color:#4d00b2;
      font-size: 50px;font-family: 'Sacramento', cursive, Arial, sans-serif;
      border-radius: 25px;
@@ -34,6 +33,7 @@ form{font-size: 20px;}
     padding: 20px;
     color: #0000FF;
     max-width: 80%;
+    border-radius: 25px;
   }
 
   /* Miscellaneous, applying own css properties on bootstrap classes and other elements*/
@@ -41,8 +41,6 @@ form{font-size: 20px;}
   .container-fluid {background: #D3D3D3;}
   .resetimages{max-height: 80vh;max-width: 100%;}
   .contentheadingsize{font-size: 30px;}
-
-
 
 /* ----Start of footer---- */
 #bottomfooter{
